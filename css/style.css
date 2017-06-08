@@ -1,0 +1,215 @@
+* {
+	margin: 0;
+	padding: 0;
+	/*overflow-x: hidden;*/
+	max-width: 425px;
+
+}
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+@media screen and (min-width: 480px) {
+	body {
+	position: absolute;
+	left: 50%;
+	margin-left: -212.5px;
+	min-width: 425px;
+	}
+	#belowContainer, #days {
+		border-left: 2px solid #cccccc;
+		border-right: 2px solid #cccccc;
+		border-bottom: 2px solid #cccccc;
+	}
+	.nav-tabs>li>a:hover {
+		border: none;
+	}
+	.nav>li>a:focus, .nav>li>a:hover {
+		background-color: #b366ff;
+	}
+
+}
+@media (min-width: 768px){
+.navbar-left {
+    float: none !important;
+    
+}
+
+}
+.navbar {
+	background-color: #b366ff;
+	margin-bottom: 0 !important;
+	border-radius: 0;
+	position: fixed;
+	width: 100%;
+	z-index: 999;
+	top: 0;
+}
+
+#logo {
+	background-color: #fff;
+	display: inline;
+	margin-left: 2%;
+	width: 35px;
+	height: 35px;
+	border-radius: 25%;
+	color: #b366ff; 
+	float: left;
+	line-height: 35px;
+}
+
+#topHeading {
+	display: inline;
+	font-size: 28px;
+	color: #fff;
+}
+
+#topNav {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	padding: 10px;
+}
+
+#inputField {
+	text-align: center;
+	width: 90%;
+}
+
+form {
+	text-align: -webkit-center;
+	display: block;
+	margin-bottom: -10px; 
+}
+
+.nav-tabs {
+	border-bottom: 0px;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+	background-color: #b366ff;
+	color: #fff;
+	border: 0px;
+	border-bottom: 3px solid #fff;
+}
+
+.nav-tabs>li>a {
+	border: 0px;
+}
+
+a {
+	color: #fff;
+}
+
+ul > li.col-xs-4 {
+	padding: 0px;
+	text-align: center;
+}
+
+ul.row {
+	margin-left: 0;
+}
+
+.tab-content {
+	margin-top: 143px;
+}
+
+#mainArea {
+	padding: 0 25px !important;
+	background-color: #bf80ff;
+}
+
+#currentDate {
+	margin: 10px 0;
+}
+
+#dayNight {
+	color: #fff;
+}
+
+#temp {
+	font-size: 90px;
+	display: inline;
+	color: #fff;
+}
+
+#degree {
+	font-size: 30px;
+	display: inline;
+	vertical-align: 43px;
+	color: #fff;
+}
+
+#imgIcon {
+	text-align: center;
+}
+
+#imgIcon > img{
+	position: relative;
+	width: 100px;
+}
+
+#weatherType {
+	position: absolute;
+	top: 83px;
+	left: 0px;
+	width: 100%;
+	color: #fff;
+}
+
+#location  {
+	color: #fff;
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+
+#details {
+	margin: 20px 0;
+	padding: 0 15px;
+}
+
+#subDetails {
+	padding: 0 15px 20px;
+}
+
+.greyDetail {
+	color: #999999;
+}
+
+#days {
+	background-color: #fff;
+}
+
+#forecast {
+	border-bottom: 1px solid #cccccc;
+	padding: 20px 7.5% 0 5%;
+	margin-left: 0 !important;
+	
+}
+
+#smallDate {
+	float: left;
+
+}
+
+#smallWeather {
+	float: left;
+	color: #999999;
+}
+
+#smallImg {
+	float: right;
+	position: relative;
+	top: -24px;
+	padding-right: 2%; 
+}
+#smallImg > img {
+	
+}
+
+#smallTemp {
+	float: right;
+	position: relative;
+	top: -20px;
+}
+
